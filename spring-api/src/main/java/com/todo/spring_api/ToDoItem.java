@@ -15,7 +15,7 @@ public class ToDoItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    String name;
+    String taskname;
     LocalDate createdOn;
     Byte urgency;
     Byte importance;
